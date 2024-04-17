@@ -13,7 +13,7 @@ const Intro = () => {
                 aria-hidden="true" />
             </picture>
             <div className={styles.intro_content}>
-            <h1 className={styles.title}>Humanizing your insurance.</h1>
+            <h1 className={styles.title}>ทนายสมศักดิ์</h1>
             <p className={styles.description}>
                 Get your life insurance coverage easier and faster. We blend our expertise 
                 and technology to help you find the plan that’s right for you. Ensure you 

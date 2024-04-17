@@ -5,21 +5,20 @@ const Intro = () => {
         <div className={styles.intro}>
             <picture className={styles.intro_img}>
             <source 
-                srcSet="images/image-intro-desktop.jpg"
+                srcSet="images/father1.png"
                 media="(min-width: 1024px)"/>
             <img 
-                src="images/image-intro-mobile.jpg"
+                src="images/father1.png"
                 alt=""
                 aria-hidden="true" />
             </picture>
             <div className={styles.intro_content}>
             <h1 className={styles.title}>ทนายสมศักดิ์</h1>
             <p className={styles.description}>
-                Get your life insurance coverage easier and faster. We blend our expertise 
-                and technology to help you find the plan that’s right for you. Ensure you 
-                and your loved ones are protected.
+                ให้คำปรึกษาทางด้านกฤหมาย คดีอาญา คดีแพ่ง คดีแรงงาน  
+                คดีปกครอง ฟ้อง แก้ต่าง การบังคับคดีครบวงจร
             </p>
-            <button className={styles.view_plans_btn}>view plans</button>
+            <button className={styles.view_plans_btn}>ติดต่อเรา</button>
             </div>
         </div>
     )

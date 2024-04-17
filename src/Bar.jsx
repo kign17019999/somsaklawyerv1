@@ -17,8 +17,9 @@ const Bar = () => {
     return (
         <div className={styles.top_bar}>
             <img 
-            src="images/logo.svg" 
+            src="images/somsaklawyer.png" 
             alt="insure logo"
+            width="250" 
             />
             <button className={styles.menu_btn} onClick={(e) => {handleClick(e)}}>
             <img 

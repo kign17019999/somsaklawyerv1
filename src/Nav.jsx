@@ -3,18 +3,18 @@ import styles from "./Nav.module.css"
 const Nav = () => {
     
     const options = [
-        {
-            id: 0,
-            text: "How we work"
-        },
-        {
-            id: 1,
-            text: "Blog"
-        },
-        {
-            id: 2,
-            text: "Account"
-        }
+        // {
+        //     id: 0,
+        //     text: "How we work"
+        // },
+        // {
+        //     id: 1,
+        //     text: "Blog"
+        // },
+        // {
+        //     id: 2,
+        //     text: "Account"
+        // }
     ]
 
     const listOptions = options.map((option) => {
@@ -26,7 +26,7 @@ const Nav = () => {
         <ul className={styles.list}>
             {listOptions}
         </ul>
-        <button className={styles.view_plans_btn_bar}>View plans</button>
+        <button className={styles.view_plans_btn_bar}>ติดต่อเรา</button>
     </nav>
   )
 }

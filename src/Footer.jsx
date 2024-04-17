@@ -3,53 +3,54 @@ import styles from "./Footer.module.css"
 const Footer = () => {
 
     const more = [
-        {
-            id: 1,
-            title:"our company",
-            links: [
-                {id: 10, link: "how we work"},
-                {id: 11, link: "why insure?"},
-                {id: 12, link: "check price"},
-                {id: 13, link: "reviews"}
-            ]
-        },
-        {
-            id: 2,
-            title:"help me",
-            links: [
-                {id: 20, link: "faq"},
-                {id: 21, link: "terms of use"},
-                {id: 22, link: "privacy policy"},
-                {id: 23, link: "cookies"}
-            ]
-        },
-        {
-            id: 3,
-            title:"contact",
-            links: [
-                {id: 30, link: "sales"},
-                {id: 31, link: "support"},
-                {id: 32, link: "live chat"}
-            ]
-        },
-        {
-            id: 4,
-            title:"others",
-            links: [
-                {id: 40, link: "careers"},
-                {id: 41, link: "press"},
-                {id: 42, link: "licenses"}
-            ]
-        },
+        // {
+        //     id: 1,
+        //     title:"our company",
+        //     links: [
+        //         {id: 10, link: "how we work"},
+        //         {id: 11, link: "why insure?"},
+        //         {id: 12, link: "check price"},
+        //         {id: 13, link: "reviews"}
+        //     ]
+        // },
+        // {
+        //     id: 2,
+        //     title:"help me",
+        //     links: [
+        //         {id: 20, link: "faq"},
+        //         {id: 21, link: "terms of use"},
+        //         {id: 22, link: "privacy policy"},
+        //         {id: 23, link: "cookies"}
+        //     ]
+        // },
+        // {
+        //     id: 3,
+        //     title:"contact",
+        //     links: [
+        //         {id: 30, link: "sales"},
+        //         {id: 31, link: "support"},
+        //         {id: 32, link: "live chat"}
+        //     ]
+        // },
+        // {
+        //     id: 4,
+        //     title:"others",
+        //     links: [
+        //         {id: 40, link: "careers"},
+        //         {id: 41, link: "press"},
+        //         {id: 42, link: "licenses"}
+        //     ]
+        // },
     ]
 
     return (
         <footer className={styles.footer}>
             <div className={styles.head}>
                 <img 
-                    src="images/logo.svg" 
+                    src="images/somsaklawyer.png" 
                     alt="insure logo"
-                    className={styles.logo} 
+                    className={styles.logo}
+                    width="300" 
                 />
                 <div className={styles.wrapper}>
                     <SocialIcon name={"facebook"}/>

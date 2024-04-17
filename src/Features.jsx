@@ -20,27 +20,27 @@ const Features = () => {
 
     return (
         <section className={styles.features}>
-            <h2 className={styles.title}>We're different</h2>
+            <h2 className={styles.title}>ทำไมถึงต้องเป็นทนายสมศักดิ์</h2>
             <div className={styles.wrapper}>
                 <IconTitleText 
-                    icon={"images/icon-snappy-process.svg"}
-                    title={"Snappy Process"}
+                    icon={"images/father1.png"}
+                    title={"มากประสบการณ์"}
                     text={
-                        "Our application process can be completed in minutes. Don't get stuck filling in tedious forms."
+                        "พนักงานสอบสวนมามากกว่า 30 ปี"
                     }
                 />
                 <IconTitleText 
-                    icon={"images/icon-affordable-prices.svg"}
-                    title={"Affordable Prices"}
+                    icon={"images/father1.png"}
+                    title={"ใส่ใจทุกขั้นตอน"}
                     text={
-                        "We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible."
+                        "ละเอียด รอบคอบ ใส่ใจทุกรายละเอียด"
                     }
                 />
                 <IconTitleText 
-                    icon={"images/icon-people-first.svg"}
-                    title={"People First"}
+                    icon={"images/father1.png"}
+                    title={"ยุติธรรม"}
                     text={
-                        "Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it."
+                        "คุณธรรมยืนหนึ่ง"
                     }
                 />
             </div>

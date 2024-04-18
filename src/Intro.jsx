@@ -11,7 +11,7 @@ const Intro = () => {
                     srcSet="images/father2.jpg"
                     media="(min-width: 1024px)"/>
                 <img 
-                    src="images/father1.png"
+                    src="images/father2.jpg"
                     alt=""
                     aria-hidden="true" />
             </picture>

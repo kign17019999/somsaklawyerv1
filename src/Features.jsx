@@ -23,21 +23,21 @@ const Features = () => {
             <h2 className={styles.title}>ทำไมถึงต้องเป็นทนายสมศักดิ์</h2>
             <div className={styles.wrapper}>
                 <IconTitleText 
-                    icon={"images/father1.png"}
+                    icon={"images/icon-exp.png"}
                     title={"มากประสบการณ์"}
                     text={
                         "พนักงานสอบสวนมามากกว่า 30 ปี"
                     }
                 />
                 <IconTitleText 
-                    icon={"images/father1.png"}
+                    icon={"images/icon-call.png"}
                     title={"ใส่ใจทุกขั้นตอน"}
                     text={
                         "ละเอียด รอบคอบ ใส่ใจทุกรายละเอียด"
                     }
                 />
                 <IconTitleText 
-                    icon={"images/father1.png"}
+                    icon={"images/icon-judge.png"}
                     title={"ยุติธรรม"}
                     text={
                         "คุณธรรมยืนหนึ่ง"

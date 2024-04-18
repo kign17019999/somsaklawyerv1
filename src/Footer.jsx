@@ -53,10 +53,10 @@ const Footer = () => {
                     width="300" 
                 />
                 <div className={styles.wrapper}>
-                    <SocialIcon name={"facebook"}/>
-                    <SocialIcon name={"twitter"}/>
+                    <SocialIcon name={"line"}/>
+                    {/* <SocialIcon name={"twitter"}/>
                     <SocialIcon name={"pinterest"}/>
-                    <SocialIcon name={"instagram"}/>
+                    <SocialIcon name={"instagram"}/> */}
                 </div>
             </div>
             <hr />
@@ -69,7 +69,7 @@ const Footer = () => {
     // eslint-disable-next-line react/prop-types
     function SocialIcon({ name }) {
         return (
-            <a href="#">
+            <a href="https://line.me/ti/p/Gy1h6tM1LQ">
                 <img 
                     src={"images/icon-" + name + ".svg"}
                     alt={name + " icon"}

@@ -32,12 +32,21 @@ p, h1, h2, h3, h4, h5, h6 {
 :root {
     /* = Colors = */
     /* Primary */
-    --dark-violet: hsl(256, 26%, 20%);
-    --grayish-blue: hsl(216, 30%, 68%);
+    /* --dark-violet: hsl(256, 26%, 20%);
+    --grayish-blue: hsl(216, 30%, 68%); */
+
+    --dark-violet: #85826F;
+    --grayish-blue: #C79989;
+
     /* Neutral */
-    --very-dark-violet: hsl(270, 9%, 17%);
+    /* --very-dark-violet: hsl(270, 9%, 17%);
     --dark-grayish-violet: hsl(273, 4%, 51%);
+    --very-light-gray: hsl(0, 0%, 98%); */
+
+    --very-dark-violet: #2E3B51;
+    --dark-grayish-violet: #C79989;
     --very-light-gray: hsl(0, 0%, 98%);
+
     /* = Font = */
     --ff-display: 'DM Serif Display', serif;
     --ff-karla: 'Karla', sans-serif;
